@@ -5,14 +5,10 @@
  * Smart Kisan Bharat API contract
  * OpenAPI spec version: 1.0.0
  */
+
 export type HealthStatusStatus = typeof HealthStatusStatus[keyof typeof HealthStatusStatus];
 
 
 export const HealthStatusStatus = {
   ok: 'ok',
 } as const;
-
-export interface HealthStatus {
-  status: HealthStatusStatus;
-}
-
