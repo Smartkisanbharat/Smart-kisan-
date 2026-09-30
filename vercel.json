@@ -1,7 +1,7 @@
 {
   "version": 2,
   "buildCommand": "PORT=3000 BASE_PATH=/ pnpm run build",
-  "outputDirectory": "artifacts/mockup-sandbox/dist",
+  "outputDirectory": "artifacts/smart-kisan-bharat/dist/public",
   "routes": [
     {
       "src": "/(.*)",
