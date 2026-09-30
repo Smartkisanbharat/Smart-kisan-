@@ -1,6 +1,9 @@
 {
   "version": 2,
   "framework": "vite",
+  "env": {
+    "PORT": "3000"
+  },
   "routes": [
     {
       "src": "/(.*)",
