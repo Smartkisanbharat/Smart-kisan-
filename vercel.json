@@ -1,9 +1,7 @@
 {
   "version": 2,
-  "framework": "vite",
-  "env": {
-    "PORT": "3000"
-  },
+  "buildCommand": "PORT=3000 pnpm run build",
+  "outputDirectory": "artifacts/mockup-sandbox/dist",
   "routes": [
     {
       "src": "/(.*)",
