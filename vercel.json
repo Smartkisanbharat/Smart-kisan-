@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "buildCommand": "pnpm --filter @workspace/smart-kisan-bharat build",
+  "outputDirectory": "artifacts/smart-kisan-bharat/dist/public",
+  "routes": [
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
