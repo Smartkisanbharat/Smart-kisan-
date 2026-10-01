@@ -1,7 +1,9 @@
 {
   "version": 2,
-  "buildCommand": "PORT=3000 BASE_PATH=./ pnpm run build",
-  "outputDirectory": "artifacts/smart-kisan-bharat/dist/public",
+  "rootDirectory": "artifacts/smart-kisan-bharat",
+  "framework": "vite",
+  "buildCommand": "vite build --base=./",
+  "outputDirectory": "dist/public",
   "routes": [
     {
       "handle": "filesystem"
