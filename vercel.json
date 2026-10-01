@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "buildCommand": "pnpm --filter @workspace/smart-kisan-bharat build",
+  "buildCommand": "PORT=3000 BASE_PATH=./ pnpm run build",
   "outputDirectory": "artifacts/smart-kisan-bharat/dist/public",
   "routes": [
     {
